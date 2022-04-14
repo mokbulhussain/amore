@@ -39,6 +39,15 @@
 
 /* LG Device :992px. */
 @media only screen and (max-width: 1199px) {
+    .banner-content h1 {
+        font-size: 54px;
+
+    }
+    .header_bg_part {
+      
+        bottom: -2px;
+       
+    }
 
     .custom-row {
         margin-top: -30px;
@@ -53,6 +62,7 @@
     .slick-next {
         right: 12px;
     }
+
 
 }
 
@@ -74,29 +84,43 @@
  
 /* MD Device :768px. */
 @media only screen and (max-width: 991.98px) {
+    .banner-content h1 {
+        font-size: 40px;
+    }
  
     .nav-menu {
         width: 100%;
         align-items: start;
     }
-    header {
-        background-image: url(../img/bg/bg.png);
-        height: 650px;
-    }
+   
     div#navbarSupportedContent {
         background: #6348b8;
         padding: 20px;
         margin-top: 10px;
+        position: absolute;
+        width: 100%;
+        top: 62px;
+        left: 0px;
+        z-index: 999999;
     }
-    .banner-img {
-        display: none;
-    }
+ 
     .navbar-toggler-icon {
         background: #ffffff;
     }
+    .banner-img .love_red {
+      
+        top: -10px;
+        right: 181px;
+    }
+    .banner-img .love_green {
+      
+        top: -110px;
+    }
+
     div#myTabContent {
         padding-right: 20px;
     }
+    
     .message-content h2 {
         font-size: 36px;
     }
@@ -124,7 +148,11 @@
 
 
 /* Extra small Device. */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767.98px) {
+    header {
+        height: 920px;
+    }
+   
     .banner-content {
         text-align: center;
     }
@@ -205,7 +233,10 @@
 }
 
 /* SM Small Device :550px. */
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575.98px) {
+    .header_bg_part {
+        bottom: -20px;
+    }
     .message-content h2 {
         font-size: 36px;
     }
@@ -236,7 +267,7 @@
         padding-right: 20px;
     }
     footer {
-        padding: 1px 200px 100px 20px;
+        padding: 1px 20px 100px 20px;
     }
     .client-container {
         padding-left: 20px;
@@ -249,9 +280,7 @@
 
 /* Mobile Device :480px. */
 @media only screen and (max-width: 480px) {
-    header {
-        height: 550px;
-    }
+ 
     .section-title p {
   
         text-align: justify;
