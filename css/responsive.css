@@ -278,11 +278,19 @@
     .banner {
         margin-top: 20px;
     }
+    .banner-content h1 {
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .feature-item {
+        margin-top: 10px;
+    }
+    section.feature {
+        padding: 56px 0px 0px 0px;
+    }
   
    
-    section.feature {
-        padding: 56px 0px 162px 0px;
-    }
+
     .header_bg_part {
         bottom: -25px;
     }
