@@ -374,6 +374,12 @@ header{
 .header_bg_part img{
     width: 100%;
 }
+img.shape_one {
+    display: block;
+}
+img.shape_two {
+    display: none;
+}
 
 
 
@@ -393,6 +399,11 @@ section.feature {
 .feature-item-row{
     margin-top: 90px;
 }
+
+.feature-img-colum {
+    display: none;
+}
+
 .feature-img{
 	background-image: url('../img/feature/circle.png');
 	height: 486px;

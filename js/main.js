@@ -32,14 +32,19 @@
                     breakpoint: 600,
                     settings: {
                         slidesToShow: 1,
-                        slidesToScroll: 1
+                        slidesToScroll: 1,
+                        arrows: false,
+                        dots:true,
                     }
                 },
                 {
                     breakpoint: 480,
                     settings: {
                         slidesToShow: 1,
-                        slidesToScroll: 1
+                        slidesToScroll: 1,
+                        arrows: false,
+                        dots:true,
+                       
                     }
                 }
             ]

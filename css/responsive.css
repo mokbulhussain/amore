@@ -109,10 +109,17 @@
         left: 0px;
         z-index: 999999;
     }
- 
-    .navbar-toggler-icon {
-        background: #ffffff;
+    .navbar-light .navbar-toggler-icon {
+        background-image: url(../img/icon/menu.svg);
     }
+    .navbar-light .navbar-toggler {
+        border: none;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+ 
+   
     header {
 
         height: 650px;
@@ -265,32 +272,138 @@
 /* SM Small Device :550px. */
 @media only screen and (max-width: 575.98px) {
     header {
-        height: 950px;
+        height: 744px;
+        background-image: url(../img/bg/bg_small.png);
     }
+    .banner {
+        margin-top: 20px;
+    }
+  
+   
     section.feature {
         padding: 56px 0px 162px 0px;
     }
     .header_bg_part {
-        bottom: -30px;
+        bottom: -25px;
     }
     .banner-img-main {
-        margin-top: 160px;
+        margin-top: 60px;
+        display: none;
+    }
+    .banner-img .love_red {
+    
+        display: none;
+    }
+    img.shape_one {
+        display: none;
+    }
+    img.shape_two {
+        display: block;
+    }
+    .feature-container {
+        padding: 0px 24px;
+        text-align: center;
+    }
+    .feature-img-colum {
+        display: block;
+    }
+    .feature-img-colum-full{
+        display: none;
     }
     .message-content h2 {
         font-size: 36px;
     }
     .message-container {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 24px;
+        padding-right: 24px;
+        text-align: center;
+    }
+
+
+    .message-row{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .message-img {
+        margin-top: 30px;
+    }
+
+    .message-content h2 {
+        font-size: 28px;
+    }
+
+       
+
+    section.price {
+        padding: 92px 0px 100px 0px;
+    }
+
+    .price-container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .price-top-img {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .price-list {
+        padding: 20px 24px 60px 24px;
+    }
+    .price-amount-star {
+        text-align: center;
+        
+    }
+    .price-amount {
+ 
+        text-align: center;
+        left: 0px !important;
+        width: 75px;
+        margin: 0px auto;
+    }
+    .section-title h2 {
+        font-size: 28px;
+    }
+ 
+  
+    .client-heading h2 {
+        font-size: 28px;
+    
+    }
+    .slick-list {
+        margin-right: -20px;
+    }
+
+    .slick-slide {
+        margin-left: 0px;
+        padding-right: 12px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .client-content {
+        width: 100%;
+    }
+    .slick-dots li button:before {
+        font-size: 40px;
+      
+    }
+    .slick-dots {
+
+        bottom: 30px;
     }
     .subscribe-form {
-        width: 320px;
+        width: 100%;
+    }
+    .subscribe-content {
+        padding-left: 0px;
+        padding-right: 0px;
     }
     .subscribe-form form input {
         width: 200px;
     }
     .subscribe-content h2 {
-        font-size: 32px;
+        font-size: 28px;
     }
     .feature-container {
         padding: 0px 20px;
@@ -298,19 +411,33 @@
     .message-content {
         padding-left: 0px;
     }
-    section.price {
-        padding: 92px 10px 100px 20px;
-    }
     .subscribe-container {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 24px;
+        text-align: center;
+        padding-right: 24px;
+    }
+
+    .subscribe-bottom-container {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
     footer {
-        padding: 1px 20px 100px 20px;
+        background-image: url(../img/bg/footer_small.png);
+    padding: 2px 20px 36px 20px;
+    background-size: 100% 100%;
+    text-align: center;
     }
+    .footer-container {
+        margin-top: 70px;
+    }
+    .footer-part {
+        margin-top: 60px;
+    }
+
+
     .client-container {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 24px;
+        padding-right: 24px;
     }
     .message-content {
         padding-left: 20px;
@@ -319,7 +446,7 @@
 
 /* Mobile Device :480px. */
 @media only screen and (max-width: 480px) {
- 
+/*  
     .section-title p {
   
         text-align: justify;
@@ -343,6 +470,6 @@
     }
     .client-heading h2 {
         font-size: 30px;
-    }
+    } */
    
 }
