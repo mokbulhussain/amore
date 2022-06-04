@@ -42,8 +42,10 @@
                     settings: {
                         slidesToShow: 1,
                         slidesToScroll: 1,
-                        arrows: false,
-                        dots:true,
+                        centerMode: true,
+                        centerPadding: '30px',
+                        infinite: true,
+                        arrows:false,
                        
                     }
                 }
